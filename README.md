@@ -1,2 +1,2 @@
 # friendster
-Implment like and reply buttons
+Implement like and reply buttons
