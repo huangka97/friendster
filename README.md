@@ -1,2 +1,2 @@
 # friendster
-summer2018sideproject
+Implment like and reply buttons
