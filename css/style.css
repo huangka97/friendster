@@ -1,0 +1,48 @@
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#commentPostButton{
+    background-color:lightblue;
+    margin-top: 20px;
+    margin-bottom: 25px;
+
+}
+
+#CommentInput{
+    margin-top: 20px;
+}
+
+hr{ 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.newsFeedcontainer{
+	display:flex;
+	border:1px solid black;
+	justify-content: center;
+	align-items: center;
+	width:250px;
+	margin-bottom: 10px;
+}
+
+.postContainer{
+	display:flex;
+	border:1px solid black;
+	width:250px;
+}
+
+

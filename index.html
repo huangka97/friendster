@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Horizons Facebook</title>
+    <!-- CSS files for Bootstrap -->
+    <!-- UNCOMMENT IF NEEDED -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Your css file -->
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <!-- YOUR CODE HERE -->
+    <center>
+    <div class="container p-3 mb-2 bg-primary text-white" >
+      <form class="well form-horizontal p-3 mb-2 bg-primary text-white" action=" " method="post"  id="contact_form1">
+        <fieldset class="p-3 mb-2 bg-primary text-white">
+
+            <!-- Form Name -->
+           <legend class="p-3 mb-2 bg-primary text-white" style="text-align: center">New user registration</legend>
+
+          <!-- Text input-->
+            <div  class="col-lg-4 col-lg-offset-4 form-group">
+              <div  class="firstName">
+              <input style="width: 50%" name="fname" placeholder="First name" id="firstNameInput" class="form-control"  type="text"> 
+
+              </div>
+           </div>
+           <!---Text input-->
+           <div class=" col-lg-4 col-lg-offset-4 form-group">
+              <div  class="lastName">
+              <input style="width: 50%" name="lname" placeholder="Last name" class="form-control" id="lastNameInput" type="text">
+              </div>
+           </div>
+
+           <!---Text input-->
+           <div class="col-lg-4 col-lg-offset-4 form-group">
+              <div class="Email">
+              <input style="width: 50%" name="email" placeholder="Email" class="form-control" id="emailInput" type="text">
+              </div>
+           </div>
+
+           <!---Text input-->
+           <div class=" col-lg-4 col-lg-offset-4 form-group">
+              <div  class="Password">
+              <input  style="width: 50%" name="password" placeholder="Password" class="form-control" id="passwordInput"  type="text">    
+              </div>
+           </div>
+
+          <div class=" col-lg-4 col-lg-offset-4 form-group">
+            <div class="registerButton">
+              <button type="button" class="btn btn-primary btn-lg ">Register</button>
+            </div>
+          </div>
+
+          <div class=" col-lg-4 col-lg-offset-4 form-group">
+            <div class="loginButton">
+              <button type="button" class="btn btn-primary btn-lg">Login</button>
+            </div>
+          </div>
+           
+
+        </fieldset>
+      </form>
+    </div>
+  </center>
+
+
+  <!--Login-->
+
+  <center>
+    <div class="container">
+      <form class="well form-horizontal" action=" " method="post"  id="contact_form2">
+        <fieldset>
+
+            <!-- Form Name -->
+           <legend style="text-align: center">Login</legend>
+
+           <!---Text input-->
+           <div class="col-lg-4 col-lg-offset-4 form-group">
+              <div class="Email">
+              <input style="width: 50%" name="email" placeholder="Email" class="form-control" id="emailInput2" type="text">
+              </div>
+           </div>
+
+           <!---Text input-->
+           <div class=" col-lg-4 col-lg-offset-4 form-group">
+              <div  class="Password">
+              <input  style="width: 50%" name="password" placeholder="Password" class="form-control" id="passwordInput2"  type="text">    
+              </div>
+           </div>
+          <div class=" col-lg-4 col-lg-offset-4 form-group">
+            <div class="loginButton">
+              <button type="button" class="btn btn-primary btn-lg">Login</button>
+            </div>
+          </div> 
+          <div class=" col-lg-4 col-lg-offset-4 form-group">
+            <div class="registerButton">
+              <button type="button" class="btn btn-primary btn-lg ">Go to Registration</button>
+            </div>
+          </div>
+
+        </fieldset>
+      </form>
+    </div>
+  </center>
+
+<center>
+    <div class="newsFeedcontainer" id="newsfeed">
+      <h1>Newsfeed</h1>
+    </div>
+</center>
+<button type="button" class="newsfeedbutton">Click here to see most recent newsfeed</button>
+
+
+
+
+
+<!--Input Box-->
+<div class="container" id="commentInputContainer">
+  <input style="width: 50%" name="commentInput" placeholder="Content..." id="CommentInput" class="form-control col-xs-4 col-xs-offset-3"  type="text"> 
+  <button class="btn btn-default" id="commentPostButton" type="submit">Post</button>
+</div>
+
+<!--Dummy Container-->
+<div id="post-container"></div>
+
+
+
+
+
+
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+   
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
+
+    <!-- underscoreJS Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+
+    
+  
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
