@@ -198,15 +198,29 @@ $("body").on("click",".replyButton",function(event){
       console.log(identity1);
       console.log(actualCommentParent);
     }
-
-
   })
-  
-
-  
-
 })
 
+$(".logoutButton").on("click",function(event){
+  event.preventDefault();
+  var token=localStorage.getItem('token');
+  //console.log(token);
+  $.ajax({
+    url:"https://horizons-facebook.herokuapp.com/api/1.0/users/logout",
+    type:"GET",
+    data:{
+      token:localStorage.getItem('token'),
+    },
+    error:function(err){
+      alert("Sorry! Please try again Log Out Button Error");
+    },
+    success: function(resp){
+      console.log("Log Out Works")
+      console.log(resp);
+    }
+
+  })
+})
 
 
 
